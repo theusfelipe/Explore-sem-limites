@@ -139,31 +139,23 @@ form #email {
   border-radius: 16px;
 }
 
+form #email,#name::placeholder{
+  margin: 50px;
+}
+
 form #textarea {
   width: 348px;
   height: 126px;
   border-radius: 16px;
 }
 
-.box-name{
-  display: flex;
-  align-items: center;
-  
-}
 
-.box-name img{
-  width: 25px;
-  z-index: -1;
-}
 
-.box-email img {
-  width: 25px;
-}
 
-.box-email {
-  display: flex;
-  align-items: center;
-}
+
+
+
+
 
 
 
