@@ -35,6 +35,11 @@ header p {
   width: 6.5rem;
 }
 
+.image-arrow img:hover {
+    cursor: pointer;
+    transform: scaleX(0.9)
+}
+
 main {
   background-color: #312d64;
   display: flex;
@@ -74,6 +79,13 @@ main {
   font-size: 1.6rem;
 }
 
+.box1:hover {
+  transform: scaleX(0.9);
+  cursor: pointer;
+  transition: 0.7s;
+  background:rgb(255, 237, 214);
+}
+
 /*FIM DO BOX1*/
 
 .box2 {
@@ -101,6 +113,13 @@ main {
   font-size: 1.6rem;
 }
 
+.box2:hover {
+  transform: scaleX(0.9);
+  cursor: pointer;
+  transition: 0.7s;
+  background:rgb(255, 237, 214);
+}
+
 /*FIM DO BOX2*/
 
 .box3 {
@@ -126,6 +145,13 @@ main {
 
 .box3 p {
   font-size: 1.6rem;
+}
+
+.box3:hover {
+  transform: scaleX(0.9);
+  cursor: pointer;
+  transition: 0.7s;
+  background:rgb(255, 237, 214);
 }
 
 /*FIM DO BOX3*/
@@ -210,7 +236,7 @@ button:hover {
 footer h4{
   text-align: center;
   margin-top: 19rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-bottom: 5rem;
   color: rgb(114, 21, 168);
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
