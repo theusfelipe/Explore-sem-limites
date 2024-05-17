@@ -150,12 +150,14 @@ form #name {
   width: 34.8rem;
   height: 4.8rem;
   border-radius: 1.6rem;
+  padding-left: 2.4rem;
 }
 
 form #email {
   width: 34.8rem;
   height: 4.8rem;
   border-radius: 1.6rem;
+  padding-left: 2.4rem;
 }
 
 form #email,
@@ -171,14 +173,22 @@ form #textarea {
 }
 
 #name {
-  background-image: url(./assets/logoform.png);
-  background-position: 1rem;
+  background-image: url(./assets/logoform.png) ;
+  background-repeat: no-repeat;
+  background-size:  1.4rem 1.2rem;
+  background-position: 0.5rem;
 }
+  
+
 
 #email {
   background-image: url(./assets/atsign.png);
-  background-position: 1rem;
+  background-repeat: no-repeat;
+  background-size:  1.4rem 1.2rem;
+  background-position: 0.5rem;
 }
+ 
+
 
 
 button {
@@ -187,6 +197,7 @@ button {
   border-radius: 1.6rem;
   background: linear-gradient(96.21deg, #343193 0%, #302c63 99.68%);
   color: #ffffff;
+  margin-top: 5rem;
 }
 
 button:hover {
@@ -196,13 +207,20 @@ button:hover {
 }
 
 
-footer {
+footer h4{
   text-align: center;
   margin-top: 19rem;
   font-size: 2rem;
-  font-weight: 100;
   margin-bottom: 5rem;
-  color: cadetblue;
-  font-family: 'Courier New', Courier, monospace;
-  
+  color: rgb(114, 21, 168);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+footer h4:hover {
+  translate: scaleY(0.1);
+  cursor: pointer;
+  color: rgb(224, 72, 72);
+  transition: 1s;
+  transform: scaleX(0.5rem);
 }
