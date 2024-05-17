@@ -175,8 +175,8 @@ form #textarea {
 #name {
   background-image: url(./assets/logoform.png) ;
   background-repeat: no-repeat;
-  background-size:  1.4rem 1.2rem;
-  background-position: 0.5rem;
+  background-size:  2.1rem ;
+  background-position: 0.8rem;
 }
   
 
@@ -184,8 +184,8 @@ form #textarea {
 #email {
   background-image: url(./assets/atsign.png);
   background-repeat: no-repeat;
-  background-size:  1.4rem 1.2rem;
-  background-position: 0.5rem;
+  background-size:  2.1rem ;
+  background-position: 0.8rem;
 }
  
 
