@@ -21,18 +21,18 @@ header {
 
 header h1 {
   color: #b52184;
-  font-size: 50px;
+  font-size: 5rem;
   font-weight: 900;
 }
 
 header p {
-  font-size: 31px;
+  font-size: 3.1rem;
   color: #312d64;
 }
 
 .image-arrow img {
-  margin-top: 35px;
-  width: 65px;
+  margin-top: 3.5rem;
+  width: 6.5rem;
 }
 
 main {
@@ -41,79 +41,79 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 93px;
+  margin-top: 9.3rem;
   position: relative;
 }
 
 .main-boxes {
-  margin-top: 45px;
+  margin-top: 4.5rem;
 }
 
 .box1 {
-  width: 345px;
+  width: 34.5rem;
   background-color: #ffffff;
-  border-radius: 16px;
+  border-radius: 1.6rem;
   color: #312d64;
-  padding: 25px;
+  padding: 2.5rem;
   margin: auto;
 }
 
 .box1 h2 {
   color: #b52184;
-  font-size: 30px;
-  line-height: 65px;
+  font-size: 3rem;
+  line-height: 6.5rem;
   font-weight: bold;
 }
 
 .box1 img {
-  width: 90px;
-  margin-bottom: 10px;
+  width: 9rem;
+  margin-bottom: 1rem;
 }
 
 /*FIM DO BOX1*/
 
 .box2 {
-  width: 345px;
+  width: 34.5rem;
   background-color: #ffffff;
-  border-radius: 16px;
+  border-radius: 1.6rem;
   color: #312d64;
-  padding: 25px;
-  margin: 40px;
+  padding: 2.5rem;
+  margin: 4rem;
 }
 
 .box2 h2 {
   color: #b52184;
-  font-size: 30px;
-  line-height: 65px;
+  font-size: 3rem;
+  line-height: 6.5rem;
   font-weight: bold;
 }
 
 .box2 img {
-  width: 90px;
-  margin-bottom: 10px;
+  width: 9rem;
+  margin-bottom: 1rem;
 }
 
 /*FIM DO BOX2*/
 
 .box3 {
-  width: 345px;
+  width: 34.5rem;
   background-color: #ffffff;
-  border-radius: 16px;
+  border-radius: 1.6rem;
   color: #312d64;
-  padding: 25px;
-  margin: 40px;
+  padding: 2.5rem;
+  margin: 4.0rem;
 }
 
 .box3 h2 {
   color: #b52184;
-  font-size: 30px;
-  line-height: 65px;
+  font-size: 3rem;
+  line-height: 6.5rem;
   font-weight: bold;
 }
 
 .box3 img {
-  width: 90px;
-  margin-bottom: 10px;
+  width: 9rem;
+  margin-bottom: 1rem;
 }
 
 /*FIM DO BOX3*/
@@ -123,55 +123,55 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 15px;
-  margin-top: 78px;
+  gap: 1.5rem;
+  margin-top: 7.8rem;
 }
 
 form h2 {
   text-align: center;
   color: #b52184;
-  font-size: 30px;
-  margin-bottom: 43px;
+  font-size: 3rem;
+  margin-bottom: 4.3rem;
 }
 
 form #name {
-  width: 348px;
-  height: 48px;
-  border-radius: 16px;
+  width: 34.8rem;
+  height: 4.8rem;
+  border-radius: 1.6rem;
 }
 
 form #email {
-  width: 348px;
-  height: 48px;
-  border-radius: 16px;
+  width: 34.8rem;
+  height: 4.8rem;
+  border-radius: 1.6rem;
 }
 
 form #email,
 #name::placeholder {
-  margin: 50px;
+  margin: 5rem;
 }
 
 form #textarea {
-  width: 348px;
-  height: 126px;
-  border-radius: 16px;
+  width: 34.8rem;
+  height: 4.8rem;
+  border-radius: 1.6rem;
 }
 
 #name {
   background-image: url(./assets/logoform.png);
-  background-position: 10px;
+  background-position: 1rem;
 }
 
 #email {
   background-image: url(./assets/atsign.png);
-  background-position: 10px;
+  background-position: 1rem;
 }
 
 
 button {
-  width: 150px;
-  height: 45px;
-  border-radius: 16px;
+  width: 15rem;
+  height: 4.5px;
+  border-radius: 1.6rem;
   background: linear-gradient(96.21deg, #343193 0%, #302c63 99.68%);
   color: #ffffff;
 }
