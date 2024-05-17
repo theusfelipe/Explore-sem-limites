@@ -13,6 +13,7 @@ body {
 header {
   text-align: center;
 }
+
 header h1 {
   color: #b52184;
   font-size: 50px;
@@ -109,6 +110,7 @@ main {
   width: 90px;
   margin-bottom: 10px;
 }
+
 /*FIM DO BOX3*/
 
 form {
@@ -139,7 +141,8 @@ form #email {
   border-radius: 16px;
 }
 
-form #email,#name::placeholder{
+form #email,
+#name::placeholder {
   margin: 50px;
 }
 
@@ -148,17 +151,6 @@ form #textarea {
   height: 126px;
   border-radius: 16px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 button {
