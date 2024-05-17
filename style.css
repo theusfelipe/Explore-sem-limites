@@ -70,6 +70,10 @@ main {
   margin-bottom: 1rem;
 }
 
+.box1 p {
+  font-size: 1.6rem;
+}
+
 /*FIM DO BOX1*/
 
 .box2 {
@@ -93,6 +97,10 @@ main {
   margin-bottom: 1rem;
 }
 
+.box2 p {
+  font-size: 1.6rem;
+}
+
 /*FIM DO BOX2*/
 
 .box3 {
@@ -114,6 +122,10 @@ main {
 .box3 img {
   width: 9rem;
   margin-bottom: 1rem;
+}
+
+.box3 p {
+  font-size: 1.6rem;
 }
 
 /*FIM DO BOX3*/
@@ -153,8 +165,9 @@ form #email,
 
 form #textarea {
   width: 34.8rem;
-  height: 4.8rem;
+  height: 12.6rem;
   border-radius: 1.6rem;
+  
 }
 
 #name {
@@ -170,7 +183,7 @@ form #textarea {
 
 button {
   width: 15rem;
-  height: 4.5px;
+  height: 4.5rem;
   border-radius: 1.6rem;
   background: linear-gradient(96.21deg, #343193 0%, #302c63 99.68%);
   color: #ffffff;
@@ -180,4 +193,16 @@ button:hover {
   background: brown;
   transition: 0.9s;
   cursor: pointer;
+}
+
+
+footer {
+  text-align: center;
+  margin-top: 19rem;
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 5rem;
+  color: cadetblue;
+  font-family: 'Courier New', Courier, monospace;
+  
 }
