@@ -6,6 +6,11 @@
   --moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
+
 body {
   background-color: #f9f4fb;
 }
@@ -150,6 +155,16 @@ form #textarea {
   width: 348px;
   height: 126px;
   border-radius: 16px;
+}
+
+#name {
+  background-image: url(./assets/logoform.png);
+  background-position: 10px;
+}
+
+#email {
+  background-image: url(./assets/atsign.png);
+  background-position: 10px;
 }
 
 
