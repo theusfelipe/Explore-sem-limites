@@ -150,32 +150,32 @@ form #name {
   width: 34.8rem;
   height: 4.8rem;
   border-radius: 1.6rem;
-  padding-left: 2.4rem;
 }
 
 form #email {
   width: 34.8rem;
   height: 4.8rem;
   border-radius: 1.6rem;
-  padding-left: 2.4rem;
 }
 
 form #email,
 #name::placeholder {
-  margin: 5rem;
+  margin: 1rem;
+  padding-left: 3.4rem;
 }
+
+
 
 form #textarea {
   width: 34.8rem;
   height: 12.6rem;
   border-radius: 1.6rem;
-  
 }
 
 #name {
   background-image: url(./assets/logoform.png) ;
   background-repeat: no-repeat;
-  background-size:  2.1rem ;
+  background-size: 2.4rem 2.4rem;
   background-position: 0.8rem;
 }
   
@@ -184,7 +184,7 @@ form #textarea {
 #email {
   background-image: url(./assets/atsign.png);
   background-repeat: no-repeat;
-  background-size:  2.1rem ;
+  background-size: 2.4rem 2.4rem ;
   background-position: 0.8rem;
 }
  
