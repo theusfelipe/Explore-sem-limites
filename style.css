@@ -17,6 +17,7 @@ body {
 
 header {
   text-align: center;
+
 }
 
 header h1 {
@@ -268,9 +269,11 @@ footer h4:hover {
     gap: 5rem;
   }
 
-  main {
-    
+  header .image-arrow {
+    margin-top: 35rem;
   }
+
+ 
 
 
 
