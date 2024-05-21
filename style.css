@@ -17,17 +17,20 @@ body {
 
 header {
   text-align: center;
+}
 
+.image-logo img {
+  width: 44rem;
 }
 
 header h1 {
   color: #b52184;
-  font-size: 5rem;
+  font-size: 3.9rem;
   font-weight: 900;
 }
 
 header p {
-  font-size: 3.1rem;
+  font-size:2.5rem;
   color: #312d64;
 }
 
