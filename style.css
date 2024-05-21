@@ -267,16 +267,23 @@ footer h4:hover {
   header {
     display: flex;
     justify-content: space-between;
-    padding: 0 2.9rem 10.3rem 10.9rem;
-    max-height: 83.6rem;
+    margin-right: 60rem;
+    max-height: 90rem;
     gap: 5rem;
+    align-items: start;
   }
 
-  header .image-arrow {
+  .image-arrow {
     margin-top: 35rem;
-    padding-right: 2rem;
+    padding-right: 65rem;
   }
 
+  .image-logo img {
+    margin-left: 90rem;
+    z-index: 1000;
+  }
+
+  
  
 
 
