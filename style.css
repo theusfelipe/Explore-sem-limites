@@ -286,6 +286,7 @@ footer h4:hover {
   }
 
   .main-boxes {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 6rem;
     padding: 6.4rem 11.1rem 8rem;
