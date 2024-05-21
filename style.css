@@ -285,6 +285,12 @@ footer h4:hover {
     margin-right: 10rem;
   }
 
+  .main-boxes {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6rem;
+    padding: 6.4rem 11.1rem 8rem;
+  }
+
   
  
 
