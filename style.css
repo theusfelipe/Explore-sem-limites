@@ -87,7 +87,7 @@ main {
   transform: scaleX(0.9);
   cursor: pointer;
   transition: 0.7s;
-  background:rgb(255, 237, 214);
+  background:rgb(210, 210, 210);
 }
 
 /*FIM DO BOX1*/
@@ -121,7 +121,7 @@ main {
   transform: scaleX(0.9);
   cursor: pointer;
   transition: 0.7s;
-  background:rgb(255, 237, 214);
+  background:rgb(210, 210, 210);
 }
 
 /*FIM DO BOX2*/
@@ -155,7 +155,7 @@ main {
   transform: scaleX(0.9);
   cursor: pointer;
   transition: 0.7s;
-  background:rgb(255, 237, 214);
+  background:rgb(210, 210, 210);
 }
 
 /*FIM DO BOX3*/
