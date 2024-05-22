@@ -13,13 +13,14 @@
 
 body {
   background-color: #f9f4fb;
-  animation: fadeIn 1s ease-out forwards;
-  animation-delay: 1.5s;
-  opacity: 0;
+  ;
 }
 
 header {
   text-align: center;
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 0.2s;
+  opacity: 0
 }
 
 .image-logo img {
@@ -55,6 +56,10 @@ main {
   align-items: center;
   margin-top: 9.3rem;
   position: relative;
+
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 0.2s;
+  opacity: 0
 }
 
 .main-boxes {
@@ -170,6 +175,10 @@ form {
   align-items: center;
   gap: 1.5rem;
   margin-top: 7.8rem;
+
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 0.2s;
+  opacity: 0
 }
 
 form h2 {
@@ -239,6 +248,11 @@ button:hover {
   cursor: pointer;
 }
 
+footer {
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 0.2s;
+  opacity: 0
+}
 
 footer h4{
   text-align: center;
@@ -255,8 +269,8 @@ footer h4:hover {
   cursor: pointer;
   color: rgb(224, 72, 72);
   transition: 1s;
-  transform: scaleX(0.5rem);
 }
+
 
 
 
