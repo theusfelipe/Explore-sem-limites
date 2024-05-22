@@ -13,6 +13,9 @@
 
 body {
   background-color: #f9f4fb;
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 1.5s;
+  opacity: 0;
 }
 
 header {
