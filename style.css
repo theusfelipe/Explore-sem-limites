@@ -188,6 +188,35 @@ form h2 {
   margin-bottom: 4.3rem;
 }
 
+/* Estilo do input */
+input[type="text"] {
+  width: 100%;
+  padding: 0.9rem; /* Preenchimento interno */
+  padding-left: 3.6rem; /* Adiciona mais preenchimento à esquerda para deslocar o texto */
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+  outline: none;
+}
+
+/* Placeholder inicial */
+input[type="text"]::placeholder {
+  color: #999; /* Cor do placeholder */
+  transition: opacity 0.3s ease; /* Animação de transição da opacidade */
+  text-indent: 0.3rem;/* Desloca o texto do placeholder */
+}
+
+/* Placeholder ao focar no input */
+input[type="text"]:focus::placeholder {
+  opacity: 0; /* Faz o placeholder desaparecer ao focar */
+}
+
+/* Estilo do input ao focar */
+input[type="text"]:focus {
+  border-color: #66afe9; /* Cor da borda ao focar */
+}
+
 form #name {
   width: 34.8rem;
   height: 4.8rem;
@@ -200,9 +229,32 @@ form #email {
   border-radius: 1.6rem;
 }
 
-#email, #name::placeholder {
-  padding-left: 4rem;
-  
+input[type="email"] {
+  width: 100%;
+  padding: 0.9rem; /* Preenchimento interno */
+  padding-left: 3.6rem; /* Adiciona mais preenchimento à esquerda para deslocar o texto */
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+  outline: none;
+}
+
+/* Placeholder inicial */
+input[type="email"]::placeholder {
+  color: #999; /* Cor do placeholder */
+  transition: opacity 0.3s ease; /* Animação de transição da opacidade */
+  text-indent: 0.3rem;/* Desloca o texto do placeholder */
+}
+
+/* Placeholder ao focar no input */
+input[type="email"]:focus::placeholder {
+  opacity: 0; /* Faz o placeholder desaparecer ao focar */
+}
+
+/* Estilo do input ao focar */
+input[type="email"]:focus {
+  border-color: #66afe9; /* Cor da borda ao focar */
 }
 
 form #textarea {
