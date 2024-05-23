@@ -200,13 +200,10 @@ form #email {
   border-radius: 1.6rem;
 }
 
-form #email,
-#name::placeholder {
-  margin: 1rem;
-  padding-left: 3.4rem;
+#email, #name::placeholder {
+  padding-left: 4rem;
+  
 }
-
-
 
 form #textarea {
   width: 34.8rem;
@@ -276,7 +273,7 @@ footer h4:hover {
 
 @media (min-width: 1440px) {
  
-
+/*DESTKOP*/
   header {
     display: flex;
     justify-content: space-between;
@@ -340,6 +337,7 @@ footer h4:hover {
 
 
 @keyframes fadeIn {
+  /*Animations*/
   from {
     opacity: 0;
     transform: translateY(2rem);
