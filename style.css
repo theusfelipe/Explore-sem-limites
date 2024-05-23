@@ -261,6 +261,13 @@ form #textarea {
   width: 34.8rem;
   height: 12.6rem;
   border-radius: 1.6rem;
+
+  border: 0.1rem solid #ccc;
+  
+}
+
+form #textarea:focus{
+  border-color: #66afe9;
 }
 
 #name {
